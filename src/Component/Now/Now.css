@@ -1,0 +1,98 @@
+p {
+  display: flex;
+}
+
+.temp_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_label {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.show_temp {
+  font-size: 30px;
+  margin: 5px 0px;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+.climate_condition {
+  margin: 5px 0px;
+  margin-bottom: 8px;
+}
+
+.celcius,
+.degree {
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.condition_container {
+  height: max-content;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.celcius {
+  font-size: 25px;
+}
+
+.divider {
+  margin: 8px 0px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(80, 79, 79);
+}
+
+.dateTime_container,
+.loc_container {
+  display: flex;
+  margin: 5px 0px;
+}
+
+.date_time,
+.detailed_loc {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 5px 5px;
+}
+
+/* 
+.seach_temp_data {
+  width: 50%;
+} */
+
+@media Screen and (max-width: 827px) {
+  .temp_data {
+    flex-direction: column-reverse;
+  }
+  .show_temp {
+    font-size: 25px;
+  }
+  .condition_container {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .temp_data {
+    flex-direction: column-reverse;
+  }
+  .show_temp {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .condition_container {
+    width: 100%;
+  }
+}

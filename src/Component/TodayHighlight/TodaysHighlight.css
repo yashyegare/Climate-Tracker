@@ -1,0 +1,135 @@
+.highlight {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.highlight_left_container,
+.highlight_right_container {
+  background-color: #0d0d0da2;
+  border-radius: 5px;
+  width: 45%;
+  height: fit-content;
+}
+
+.highlight_label {
+  margin: 12px 0px;
+}
+
+.qualtity_type {
+  background-color: #4dd637;
+  color: #000000;
+  font-weight: 400;
+  padding: 4px 10px;
+  border-radius: 50px;
+  width: 65px;
+  height: 28px;
+}
+
+.airlable_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.airlabel {
+  color: #ffffff59;
+  margin: 5px;
+}
+
+.unit {
+  text-align: center;
+}
+
+.highlight_divider {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.airdata {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+AirIcon {
+  font-size: 40px;
+}
+
+.airtype_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+}
+
+.uppercontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lowercontainer {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  padding-bottom: 0px;
+  width: 100%;
+  justify-content: space-between;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.sunrise_sunset {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 540px) {
+  .lowercontainer {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 5px 0px;
+    gap: 0px;
+    justify-content: space-between;
+  }
+
+  .qualtity_type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .lowercontainer {
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    padding: 5px 0px;
+
+    gap: 0px;
+  }
+
+  .qualtity_type {
+    display: none;
+  }
+
+  .highlight {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 15px;
+  }
+
+  .uppercontainer {
+    flex-direction: column;
+  }
+
+  .highlight_left_container,
+  .highlight_right_container {
+    background-color: #0d0d0dee;
+    border-radius: 5px;
+    width: 100%;
+    height: fit-content;
+  }
+} ;

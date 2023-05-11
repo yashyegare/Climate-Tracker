@@ -1,0 +1,19 @@
+.sunrise,
+.sunset {
+  width: fit-content;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sunset_time,
+.sunrise_time {
+  font-size: 20px;
+}
+
+.sun_time,
+.moon_time {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+}

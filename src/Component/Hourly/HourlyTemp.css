@@ -1,0 +1,8 @@
+.hours_temp_container {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}

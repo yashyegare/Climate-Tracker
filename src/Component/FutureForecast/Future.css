@@ -1,0 +1,41 @@
+.future_data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0px;
+  width: 100%;
+  font-size: 14px;
+}
+.future_container {
+  width: 100%;
+}
+
+.min_max_conatiner {
+  margin-top: 5px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.min_container,
+.max_conatiner {
+  width: 50%;
+}
+
+.min_temp,
+.max_temp {
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 532px) {
+  .min_temp,
+  .max_temp {
+    margin-left: 3px;
+    font-size: 15px;
+  }
+  .otherinfo,
+  .timezone,
+  .localtime {
+    font-size: 14px;
+  }
+}

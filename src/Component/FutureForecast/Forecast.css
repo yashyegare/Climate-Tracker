@@ -1,0 +1,28 @@
+.forecast {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.otherinfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherinfo,
+.timezone,
+.localtime {
+  margin-bottom: 10px;
+}
+
+.otherinfolabel {
+  margin: 10px 5px;
+}
+
+@media Screen and (max-width: 725px) {
+  .forecast_otherinfo_conatiner {
+    flex-direction: row;
+  }
+}
