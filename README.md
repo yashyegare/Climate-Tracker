@@ -1,2 +1,2 @@
 # climate-tracker
-[Go to the website](href = https://climatetracker.netlify.app/)
+[<a href="https://climatetracker.netlify.app/" rel="nofollow">View Website</a>
